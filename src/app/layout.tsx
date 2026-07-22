@@ -52,7 +52,7 @@ export default function RootLayout({
           />
           
           {/* Vignette: Degradê radial para suavizar as bordas */}
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,#F5EFE7_90%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,#F8F3EC_90%)]" />
         </div>
 
         {/* Conteúdo do site acima do fundo */}

@@ -1,13 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #F5EFE7;
-  --foreground: #3E2E22;
-  --primary: #B08D57;
-  --accent: #E8B4C4;
-  --secondary: #8A9A6E;
+  /* Cores exatas da paleta */
+  --background: #F8F3EC; /* OFF-WHITE */
+  --foreground: #6B4D53; /* Tom escuro baseado na paleta para legibilidade de texto */
   
-  --shadow-card: 0 4px 20px -2px rgba(62, 46, 34, 0.05);
+  --primary: #E8A7B1; /* ROSA SECO (Títulos principais e botões) */
+  --accent: #F7C6D0; /* ROSA BEBÊ (Detalhes suaves) */
+  --secondary: #A8B89A; /* VERDE CLARO */
+  --gold: #D4AF37; /* DOURADO */
+  
+  --shadow-card: 0 4px 20px -2px rgba(107, 77, 83, 0.08);
 }
 
 @theme inline {
@@ -16,6 +19,7 @@
   --color-primary: var(--primary);
   --color-accent: var(--accent);
   --color-secondary: var(--secondary);
+  --color-gold: var(--gold);
 
   --font-serif: var(--font-serif);
   --font-script: var(--font-script);
