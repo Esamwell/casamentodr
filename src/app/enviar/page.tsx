@@ -186,7 +186,6 @@ export default function EnviarPage() {
                 type="file"
                 multiple
                 accept="image/*,video/*"
-                capture="environment" // Hint for mobile devices to open camera directly or offer it prominently
                 ref={fileInputRef}
                 className="hidden"
                 onChange={handleFileSelect}
